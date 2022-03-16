@@ -70,16 +70,23 @@ z-index: 1 }
 		padding: 8px
 	}
 	.encabezado nav ul li a {
-		text-decoration: none
+		text-decoration: none;
+		color: black;
+		background-image: linear-gradient(currentColor, currentColor);
+   				background-position: 0% 100%;
+    			background-repeat: no-repeat;
+    			background-size: 0% 2px;
+    			transition: background-size .3s;
 	}
 	.encabezado nav ul li a:hover{
 		font-weight: 600;
+
 	}
 	.encabezado nav a {
 		text-decoration: none
 	}
 	.img-fluid{
-		width: 100%
+		width: 100%;
 	}
 	.encabezado_logo{
 		width: 100px
